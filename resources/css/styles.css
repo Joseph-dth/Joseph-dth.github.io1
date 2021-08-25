@@ -19,6 +19,8 @@ html {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 11px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .clearfix {
