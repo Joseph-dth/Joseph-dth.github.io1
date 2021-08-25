@@ -8,6 +8,12 @@
     box-sizing: inherit;
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
     /*
     font-family: 'Nunito', sans-serif;
@@ -19,6 +25,8 @@ html {
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 11px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .clearfix {
