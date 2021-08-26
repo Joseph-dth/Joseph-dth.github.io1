@@ -661,6 +661,9 @@ footer {
     html {
         font-size: 11px;
     }
+    nav {
+        overflow-x: hidden;
+    }
     .nav-links {
         position: absolute;
         right: 0px;
@@ -674,7 +677,6 @@ footer {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         z-index: 1;
-        display: none;
     }
     .nav-links li {
         opacity: 0;
@@ -694,7 +696,6 @@ footer {
     }
     .nav-active {
         transform: translateX(0%);
-        display: flex;
     }
     .container-card {
         margin: 0 auto;
