@@ -688,13 +688,13 @@ footer {
         font-size: 150%;
     }
     .burger {
-        display: block !important;
-        ;
+        display: block;
         cursor: pointer;
         transform: translateX(-50%);
     }
     .nav-active {
         transform: translateX(0%);
+        display: flex;
     }
     .container-card {
         margin: 0 auto;
