@@ -1,0 +1,188 @@
+/* -----------------------------------------*/
+
+
+/*Basic setup*/
+
+
+/* -----------------------------------------*/
+
+
+/* -----------------------------------------*/
+
+
+/*FORM*/
+
+
+/* -----------------------------------------*/
+
+.section-contact-form {
+    width: 80%;
+    margin: 0 auto !important;
+    padding: 10vh 10rem;
+}
+
+.section-contact-form h2 {
+    padding-left: 4rem;
+    padding-bottom: 4vh;
+}
+
+.section-contact-form p {
+    color: gray;
+    margin-bottom: 300px;
+}
+
+.contact-form {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.form-text {
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+}
+
+.email {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 200px;
+    align-items: center;
+}
+
+.email label {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #6f85ad;
+}
+
+.email input {
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.email label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #6f85ad;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.content-email {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 150%;
+    transition: all 0.3s ease;
+}
+
+.email input:focus+.label-email .content-email {
+    transform: translateY(-240%);
+    font-size: 14px;
+    color: #6f85ad;
+}
+
+.email input:valid+.label-email .content-email {
+    transform: translateY(-240%);
+    font-size: 14px;
+    color: #6f85ad;
+}
+
+.email input:focus+.label-email::after,
+.email input:valid+.label-email::after {
+    transform: translateX(0%);
+}
+
+.submit input {
+    float: right;
+    margin-right: 10%;
+    font-size: 130%;
+}
+
+.submit input:link,
+.submit input:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid #6f85ad;
+    color: #6f85ad;
+    background-color: transparent;
+}
+
+.submit input:hover,
+.submit input:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #6f85ad;
+    border: 1px solid #6f85ad;
+    color: #fff;
+}
+
+@media only screen and (max-width :1024px) {
+    .section-contact-form h2 {
+        padding-left: 2.5rem;
+        padding-bottom: 4vh;
+    }
+}
+
+@media only screen and (max-width :768px) {
+    .section-contact-form h2 {
+        padding-left: 1.5rem;
+        padding-bottom: 4vh;
+    }
+}
+
+@media only screen and (max-width :425px) {
+    .section-contact-form {
+        width: 80%;
+        margin: 0 auto !important;
+        padding: 10vh 4rem;
+    }
+    .section-contact-form h2 {
+        padding-left: 1.5rem;
+        padding-bottom: 4vh;
+    }
+}
+
+@media only screen and (max-width :375px) {
+    .section-contact-form {
+        width: 80%;
+        margin: 0 auto !important;
+        padding: 10vh 2rem;
+    }
+    .section-contact-form h2 {
+        padding-left: 1rem;
+        padding-bottom: 4vh;
+    }
+}
+
+@media only screen and (max-width :320px) {
+    .section-contact-form {
+        width: 80%;
+        margin: 0 auto !important;
+        padding: 10vh 1rem;
+    }
+    .section-contact-form h2 {
+        padding-left: 1rem;
+        padding-bottom: 4vh;
+    }
+}
