@@ -71,6 +71,10 @@ section {
 
 /*header*/
 
+header {
+    overflow-x: hidden;
+}
+
 header nav {
     display: flex;
     justify-content: space-around;

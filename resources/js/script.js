@@ -33,10 +33,8 @@ $(document).ready(function() {
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
         const navLinks = document.querySelectorAll('.nav-links li');
-        const forOverflow = document.querySelector('.forOverflow');
         burger.addEventListener('click', () => {
             nav.classList.toggle('nav-active');
-            forOverflow.classList.toggle('overFlowShow');
             console.log('ver5')
 
 
