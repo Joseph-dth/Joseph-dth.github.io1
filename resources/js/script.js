@@ -17,25 +17,17 @@ $(document).ready(function() {
 
     })
     */
-    const notScroll = function() {
 
-        var $body = $(document);
-        $body.bind('scroll', function() {
-            // "Disable" the horizontal scroll.
-            if ($body.scrollLeft() !== 0) {
-                $body.scrollLeft(0);
-            }
-        });
-
-    };
-    notScroll();
     const navSlide = () => {
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
         const navLinks = document.querySelectorAll('.nav-links li');
+        const header = document.querySelector('.header')
         burger.addEventListener('click', () => {
             nav.classList.toggle('nav-active');
-            console.log('ver5')
+            // header.classList.remove('.header');
+            // header.classList.toggle('.headerOverflow');
+            // console.log('ver6', header.classList)
 
 
             navLinks.forEach((link, index) => {
