@@ -163,10 +163,9 @@ header nav {
         margin: 0 auto;
     }
     header {
-        overflow: hidden;
+        overflow-x: hidden;
     }
     body {
-        overflow: hidden!important;
         font-size: 16px;
     }
     .nav-links {
