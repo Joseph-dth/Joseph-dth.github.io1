@@ -674,6 +674,7 @@ footer {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         z-index: 1;
+        display: none;
     }
     .nav-links li {
         opacity: 0;
@@ -687,7 +688,8 @@ footer {
         font-size: 150%;
     }
     .burger {
-        display: block;
+        display: block !important;
+        ;
         cursor: pointer;
         transform: translateX(-50%);
     }
