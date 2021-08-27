@@ -29,6 +29,10 @@
     font-size: 18px;
 }
 
+.pipe h3 strong {
+    color: #6f85ad;
+}
+
 .container img {
     padding-bottom: 5vh;
 }

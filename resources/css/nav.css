@@ -23,6 +23,11 @@ html {
     width: 100%;
 }
 
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
 .clearfix {
     zoom: 1
 }

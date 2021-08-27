@@ -17,18 +17,22 @@ $(document).ready(function() {
 
     })
     */
+    // const hero = window.getComputedStyle(document.querySelector('.hero'));
+    // const hero = document.querySelector('.hero');
+    // console.log(hero.style)
+    // hero.style.background = 'linear-gradient(135deg, #6f85ad 0%, #6f85ad2f 100%), url(' + '../images/Area.jpeg' + ') center no-repeat;';
+    // console.log(hero.style)
 
     const navSlide = () => {
         const burger = document.querySelector('.burger');
         const nav = document.querySelector('.nav-links');
         const navLinks = document.querySelectorAll('.nav-links li');
-        const header = document.querySelector('.header')
         burger.addEventListener('click', () => {
             nav.classList.toggle('nav-active');
             // header.classList.remove('.header');
             // header.classList.toggle('.headerOverflow');
             // console.log('ver6', header.classList)
-            console.log('ver7')
+            console.log('ver8')
 
             navLinks.forEach((link, index) => {
                 if (link.style.animation) {
