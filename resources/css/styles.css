@@ -766,6 +766,9 @@ footer {
     .about-Us-content-button {
         margin-bottom: 2rem;
     }
+    .aboutUs-content-image {
+        padding-top: 3vh;
+    }
 }
 
 @media only screen and (max-width :320px) {}

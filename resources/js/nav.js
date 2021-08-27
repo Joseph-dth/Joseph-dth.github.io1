@@ -25,11 +25,5 @@ $(document).ready(function() {
     }
     navSlide();
 
-    $("#hslider").slider({
-        min: 0,
-        max: 100,
-        slide: function(e, ui) {
-            $(this).find(".ui-slider-handle").html(ui.value);
-        }
-    });
+
 });
