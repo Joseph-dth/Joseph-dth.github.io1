@@ -16,6 +16,12 @@ html {
     font-size: 11px;
     text-rendering: optimizeLegibility;
     width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
 }
 
 .clearfix {
