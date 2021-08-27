@@ -28,7 +28,7 @@ $(document).ready(function() {
             // header.classList.remove('.header');
             // header.classList.toggle('.headerOverflow');
             // console.log('ver6', header.classList)
-
+            console.log('ver7')
 
             navLinks.forEach((link, index) => {
                 if (link.style.animation) {
